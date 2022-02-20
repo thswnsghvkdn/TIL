@@ -1,16 +1,5 @@
 
 # 이름을 명확히 쓰는 것만으로 가독성을 늘릴 수 있다.
-<br>
-
-## 통일성 있는 단어 사용하기
-<HR><BR>
-비슷한 맥락의 이름들  
-
-Member == Customer == User
-Service == Manager  
-Repository == Dao  
-협의를 통해서 비슷한 의미에대해 하나의 변수이름을 정해야한다.
-
 
 ## 의도를 분명히
 <HR><BR>
@@ -49,7 +38,7 @@ getFlaggedCells() {
 <HR><BR>
 
 
-우리가 익숙히 알고있는 정보들을 피하라 ex ) 약어를 사용할 때 그것이 다른 의미가 아닌지 확인, 변수의 이름이 길어질때
+우리가 익숙히 알고있는 정보들을 피하라 ex ) 약어를 사용할 때 그것이 다른 의미가 아닌지 확인, 변수의 이름이 길얼질때
 
 흡사한 이름을 피해야 한다.
 
@@ -89,7 +78,7 @@ e, 7 같은 이름은 여러곳에서 쓰이므로 검색도 어려워진다.
 
 
 
-## 클래스 , 인터페이스 이름은 명사나 명사구가 적합 : Customer , WikiPage, Account
+## 클래스 이름은 명사나 명사구가 적합 : Customer , WikiPage, Account
 <HR><BR>
 
 
@@ -120,10 +109,6 @@ addrFirstName, addrLastName, addrState ...
 ## 불필요한 맥락을 없애라
 <HR><BR>
 
-Gas Station Deluxe 라는 앱을 구성한다고 해서 모든 클래스 앞에 GSD 를 붙이는 것은 G로 검색을 할 때 모든 클래스가 나오는 불상사를 야기할 것이다. 이름을 분명히 하는 것은 좋지만 클래스의 이름은 의미가 분명하되 간략한 것이 좋다. accountAddress 와 customerAddress는 인스턴스 이름으로 좋다. 포트주소 , MAC 주소 URI 주소 클래스를 구별해야한다면 PostalAddress , MAC , URI 로 나누는 것도 좋은 방법  
-타입 역시 변수이름에 넣기 불필요하다. nameString 은 name으로 itemPriceAmount 는 itemPrice , accoutnArray 는 accounts로 표기한다.
+Gas Station Deluxe 라는 앱을 구성한다고 해서 모든 클래스 앞에 GSD 를 붙이는 것은 G로 검색을 할 때 모든 클래스가 나오는 불상사를 야기할 것이다. 이름을 분명히 하는 것은 좋지만 클래스의 이름은 의미가 분명하되 간략한 것이 좋다. accountAddress 와 customerAddress는 인스턴스 이름으로 좋다. 포트주소 , MAC 주소 URI 주소 클래스를 구별해야한다면 PostalAddress , MAC , URI 로 나누는 것도 좋은 방법
 
-*하지만 list와 map의 경우에는 accountList , accountMap으로 왕왕 쓴다.
-
-​
 
