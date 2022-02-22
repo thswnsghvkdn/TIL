@@ -1,4 +1,4 @@
-package HouseUtilsApplication.demo;
+package houseUtilsApplication.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
