@@ -1,11 +1,14 @@
 package houseUtilsApplication.demo.policy;
 
 import lombok.AllArgsConstructor;
+import org.springframework.lang.Nullable;
 
 // 가격이 특정 범위일 대 상한 요율과 상한 금액을 가지는 클래스
 @AllArgsConstructor
 public class BrokerageRule {
     private Double brokeragePercent;
+
+    @Nullable
     private Long limitAmount;
 
     public Long calcMaxBrokerage(Long price) {
