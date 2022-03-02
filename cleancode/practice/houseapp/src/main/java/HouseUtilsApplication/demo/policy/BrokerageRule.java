@@ -1,4 +1,4 @@
-package houseUtilsApplication.demo.policy;
+package HouseUtilsApplication.demo.policy;
 
 import lombok.AllArgsConstructor;
 import org.springframework.lang.Nullable;

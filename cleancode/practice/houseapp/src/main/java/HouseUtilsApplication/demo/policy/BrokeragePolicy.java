@@ -1,6 +1,4 @@
-package houseUtilsApplication.demo.policy;
-
-
+package HouseUtilsApplication.demo.policy;
 
 public interface BrokeragePolicy {
     BrokerageRule createBrokerageRule(Long price);

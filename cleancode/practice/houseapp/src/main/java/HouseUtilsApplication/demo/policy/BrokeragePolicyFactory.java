@@ -1,6 +1,6 @@
-package houseUtilsApplication.demo.policy;
+package HouseUtilsApplication.demo.policy;
 
-import houseUtilsApplication.demo.constants.ActionType;
+import HouseUtilsApplication.demo.constants.ActionType;
 
 public class BrokeragePolicyFactory {
 

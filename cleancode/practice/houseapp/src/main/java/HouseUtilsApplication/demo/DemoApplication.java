@@ -1,4 +1,4 @@
-package houseUtilsApplication.demo;
+package HouseUtilsApplication.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

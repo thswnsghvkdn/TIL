@@ -1,4 +1,4 @@
-package houseUtilsApplication.demo.constants;
+package HouseUtilsApplication.demo.constants;
 
 
 import lombok.AllArgsConstructor;

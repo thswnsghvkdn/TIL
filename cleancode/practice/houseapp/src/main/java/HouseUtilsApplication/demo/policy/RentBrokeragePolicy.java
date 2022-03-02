@@ -1,4 +1,4 @@
-package houseUtilsApplication.demo.policy;
+package HouseUtilsApplication.demo.policy;
 
 
 // 임대차 때 중계 수수료를 계산해 주는 클래스
