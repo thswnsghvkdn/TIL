@@ -1,8 +1,5 @@
 package HouseUtilsApplication.demo.service;
 
-import HouseUtilsApplication.demo.entity.Apartment;
-import HouseUtilsApplication.demo.exception.ErrorCode;
-import HouseUtilsApplication.demo.exception.HouseUtilsException;
 import HouseUtilsApplication.demo.repository.ApartmentRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
